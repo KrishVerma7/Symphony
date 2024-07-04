@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "920279339578",
+    "project_id": "symphony-e65df",
+    "storage_bucket": "symphony-e65df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920279339578:android:4bbe5b4dc7244db58bdb03",
+        "android_client_info": {
+          "package_name": "com.example.symphony"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu1QUg_w15z7URc6MYXWiFhmM-G6Km7Sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
