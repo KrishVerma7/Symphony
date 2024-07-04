@@ -228,6 +228,7 @@ fun uploadImageToFirebase(
         storageRef.downloadUrl.addOnSuccessListener { uri ->
             val imageUrl = uri.toString()
             updateProfilePicture(imageUrl)
+            Toast.makeText(context, "Upload Successful", Toast.LENGTH_SHORT).show()
         }
     }.addOnFailureListener {
         Toast.makeText(context, "Upload failed", Toast.LENGTH_SHORT).show()
